@@ -1,0 +1,2 @@
+cd $PREV_DIR
+$PRIV_DIR
