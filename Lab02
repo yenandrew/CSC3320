@@ -1,0 +1,37 @@
+Lab 02
+
+Getting Help- Help can be found on the PDFs provided in class and various university websites eg. kb.iu.edu/d/afdc allso you can use the :help command
+
+Moving Around VI editor- the j k h l keys can be used to move the cursor.
+j - down a line
+k - up a line
+h - left one character
+l - right one character
+
+Inserting text- Press the i key to inser text. Press esc to quit.
+
+Appending- In insert mode move cursor to the text and can directly edit or change text there.
+
+Subtraction- In insert mode move cursor and select backspace key to delete text. In non insert mode you can
+delete text by using uppercase D.
+
+Undo- press u.
+
+Dropping into command line mode- On SSH enter vi followed by file name to enter vi editor. Defaut mode- Command mode.
+
+Range based deletion and substution- Type dNw where n is number of words, dNd to delete lines where n is number of
+lines. Change text by typing cNw where N is number of words to change, cNc where N is number of lines to change
+
+Finding a character- /string where string is occurance of string in text. use upper and lower case N to find next
+or previous occurance of word.
+
+Quitting- 
+:x<return>- quit and saves file with original name when entered VI editor
+:wq<return>- quit and saves file with original name when entered VI editor
+:w <f>- quit and save to new file <f>
+:q!<return>- quit vi even if latest changes not saved for vi call
+
+Running shell- type sh
+
+
+ 
